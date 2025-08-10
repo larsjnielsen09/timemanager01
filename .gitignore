@@ -29,6 +29,8 @@ backend/*.db*
 # Node / Frontend
 frontend/node_modules/
 frontend/dist/
+frontend/.vite/
+frontend/tsconfig.node.tsbuildinfo
 
 # Env files
 .env
