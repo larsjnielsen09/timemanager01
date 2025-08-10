@@ -1,0 +1,37 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Backend venv & db
+backend/.venv/
+backend/timemanager.db
+backend/*.db*
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Env files
+.env
+.env.*
+frontend/.env
+frontend/.env.*
