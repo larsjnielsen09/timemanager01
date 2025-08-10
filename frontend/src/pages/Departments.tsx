@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { api } from '@/lib/api'
+import { api } from '../lib/api'
 
 type Customer = { id: number; name: string }
 
